@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  body{
+    width:100%;
+    margin: 0;
+    border: 0;
+    color:#5b5656;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+.title{
+    font-family: 'Titillium Web', sans-serif;
+    color: #e20c90;
+}
+
+.form{
+    width: 100%;
+    position: relative;
+    top:6rem;
+    padding-top: 10rem;
+    background-color: #f1e3cb;
+}
+
+.contact-form{
+    background-color: #f1e3cb;
+    padding-bottom: 10rem;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 20px 0 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 30px;  
+}
+
+
+input[type=email]{
+    width: 30%;
+    padding: 20px 0 20px 0;
+    border: 2px solid #ccc;
+    margin: 20px 0 20px 0;
+    border-radius: 30px;
+}
+
+input::placeholder {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.8rem;
+    text-align: 10px;
+    font-weight: bold;
+    opacity: 25%; 
+  }
+
+textarea{  
+    width: 30%;
+    padding: 20px 0 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    resize: none;
+}
+
+textarea::placeholder{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 25%;
+}
+
+input[type=submit] {
+    width: 8%;
+    background-color: #f7c2f4;
+    padding: 12px 0 12px 0;
+    border: 0.2px solid #ccc;
+    border-radius: 30px;     
+}
+
+input[type=submit]:hover{
+    background-color: #e67ace;
+    cursor: pointer;
+    transition: all 0.5s;
+}
